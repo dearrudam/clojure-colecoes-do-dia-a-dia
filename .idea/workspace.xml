@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44455d37-4590-42e5-8c92-e3baaff5fb63" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/loja/aula3.clj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loja/db.clj" afterDir="false" />
+    <list default="true" id="dba19bbb-5bb1-4839-b782-a8f6d0884753" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/loja/aula4.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loja/logic.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clojure-colecoes-do-dia-a-dia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clojure-colecoes-do-dia-a-dia.iml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,40 +30,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.6.1" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1Xzx0PeDOVo1VL0geDR6B9QUwan" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1YYFsG9NWrBEnyHOtDvWORC2LpM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="cursive.last.file.extension.C\:/Users/marruda/personal/github.com/dearrudam/clojure-colecoes-do-dia-a-dia/src" value="clj" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="cursive.last.file.extension./home/dearrudam/gocode/src/github.com/dearrudam/clojure-colecoes-do-dia-a-dia/src" value="clj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project.clj" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\marruda\personal\github.com\dearrudam\clojure-colecoes-do-dia-a-dia\src\loja" />
-    </key>
-  </component>
-  <component name="ReplState" timestamp="1583088414779">{:repl-history {:ide [], :local [], :remote []}}</component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="ReplState" timestamp="1583113136422">{:repl-history {:ide [], :local [], :remote []}}</component>
   <component name="RunManager">
     <configuration name="REPL for clojure-colecoes-do-dia-a-dia" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
       <module name="clojure-colecoes-do-dia-a-dia" />
@@ -99,34 +86,20 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="44455d37-4590-42e5-8c92-e3baaff5fb63" name="Default Changelist" comment="" />
-      <created>1582062500913</created>
+      <changelist id="dba19bbb-5bb1-4839-b782-a8f6d0884753" name="Default Changelist" comment="" />
+      <created>1583111826931</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582062500913</updated>
+      <updated>1583111826931</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
