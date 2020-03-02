@@ -43,3 +43,20 @@
       resumo (resumo-por-usuario-ordenado pedidos)]
   (println "Resumo" resumo)
   (println "Top-2" (top-2 resumo)))
+
+(let [pedidos (l.db/todos-os-pedidos)
+      resumo (resumo-por-usuario-ordenado pedidos)]
+  (println "> 500 filter" (filter #(> (:preco-total %) 500) resumo))
+  ; using last threading declaration
+  (println "> 500 filter empty not using last treading declaration=>"
+           (->> (filter #(> (:preco-total %) 500) resumo)
+                empty?
+                not))
+  ; always take a look in the clojure documentation in order to learn
+  ; new functions because it's possible to there's some function that
+  ; its results are pretty similar to results from a composition of
+  ; functions that we're trying to use.
+  ; For example, the "some" function that returns a response pretty
+  ; similar to the composition of functions that we're using here.
+  (println "> 500 filter empty not =>" (not (empty? (filter #(> (:preco-total %) 500) resumo))))
+  (println "> 500 some =>" (some #(> (:preco-total %) 500) resumo)))

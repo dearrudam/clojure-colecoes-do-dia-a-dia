@@ -38,7 +38,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/project.clj" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
-  <component name="ReplState" timestamp="1583114688819">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1583124469357">{:repl-history {:ide [], :local [], :remote []}}</component>
   <component name="RunManager">
     <configuration name="REPL for clojure-colecoes-do-dia-a-dia" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
       <module name="clojure-colecoes-do-dia-a-dia" />
