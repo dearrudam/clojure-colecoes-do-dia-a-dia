@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dba19bbb-5bb1-4839-b782-a8f6d0884753" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/loja/aula4.clj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loja/logic.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clojure-colecoes-do-dia-a-dia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clojure-colecoes-do-dia-a-dia.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/loja/aula4.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/loja/aula4.clj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +38,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/project.clj" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
-  <component name="ReplState" timestamp="1583113136422">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1583114688819">{:repl-history {:ide [], :local [], :remote []}}</component>
   <component name="RunManager">
     <configuration name="REPL for clojure-colecoes-do-dia-a-dia" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
       <module name="clojure-colecoes-do-dia-a-dia" />

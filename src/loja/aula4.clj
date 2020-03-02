@@ -18,10 +18,28 @@
 (defn resumo-por-usuario-ordenado
   [pedidos]
   (->> pedidos
-       (sort-by :preco-total)))
+       l.logic/resumo-por-usuario
+       (sort-by :preco-total)
+       reverse))
 
 
 (let [pedidos (l.db/todos-os-pedidos)
       resumo (resumo-por-usuario-ordenado pedidos)]
-  (println "Resumo" resumo))
+  (println "Resumo" resumo)
+  (println "Primeiro" (first resumo))
+  (println "Segundo" (second resumo))
+  (println "Resto" (rest resumo))
+  (println "Total" (count resumo))
+  (println "Class" (class resumo))
+  (println "nth 1" (nth resumo 1))
+  (println "get 1" (get resumo 1))
+  (println "take" (take 2 resumo)))
 
+(defn top-2 [resumo]
+  (take 2 resumo))
+
+
+(let [pedidos (l.db/todos-os-pedidos)
+      resumo (resumo-por-usuario-ordenado pedidos)]
+  (println "Resumo" resumo)
+  (println "Top-2" (top-2 resumo)))
