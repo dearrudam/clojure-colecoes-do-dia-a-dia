@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dba19bbb-5bb1-4839-b782-a8f6d0884753" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/loja/aula5.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/loja/aula4.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/loja/aula4.clj" afterDir="false" />
     </list>
@@ -33,12 +34,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GoToKeyword.includeLibraries" value="false" />
+    <property name="GoToNamespace.includeLibraries" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="cursive.last.file.extension./home/dearrudam/gocode/src/github.com/dearrudam/clojure-colecoes-do-dia-a-dia/src" value="clj" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/project.clj" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
-  <component name="ReplState" timestamp="1583124469357">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1583127856729">{:repl-history {:ide [], :local [], :remote []}}</component>
   <component name="RunManager">
     <configuration name="REPL for clojure-colecoes-do-dia-a-dia" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
       <module name="clojure-colecoes-do-dia-a-dia" />
@@ -94,5 +97,11 @@
       <updated>1583111826931</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="346" y="61" width="672" height="678" key="search.everywhere.popup" timestamp="1583126101096">
+      <screen x="0" y="28" width="1366" height="712" />
+    </state>
+    <state x="346" y="61" width="672" height="678" key="search.everywhere.popup/0.28.1366.712@0.28.1366.712" timestamp="1583126101096" />
   </component>
 </project>

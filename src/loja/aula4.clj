@@ -47,7 +47,7 @@
 (let [pedidos (l.db/todos-os-pedidos)
       resumo (resumo-por-usuario-ordenado pedidos)]
   (println "> 500 filter" (filter #(> (:preco-total %) 500) resumo))
-  ; using last threading declaration
+  ; using THREAD LAST declaration
   (println "> 500 filter empty not using last treading declaration=>"
            (->> (filter #(> (:preco-total %) 500) resumo)
                 empty?
